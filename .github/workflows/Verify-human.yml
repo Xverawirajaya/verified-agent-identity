@@ -34,8 +34,8 @@ jobs:
           npm install
 
       - name: Step 2 - Create new Ethereum Identity
-        run: node scripts/createNewEthereumIdentity.js
-        working-directory: scripts   # optional, kalau mau lebih bersih tanpa cd
+        run: node createNewEthereumIdentity.js
+        working-directory: scripts
 
       - name: Step 3 - Link Human to Agent
         run: |
